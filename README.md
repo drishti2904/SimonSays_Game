@@ -23,7 +23,7 @@ A fun and interactive memory game inspired by the classic "Simon Says" where pla
 
 
 
-## 📂 Project Structure
+## Project Structure
 
 
 simon-says/
@@ -35,7 +35,7 @@ simon-says/
 
 
 
-## 🚀 Features
+## Features
 
 - Color and sound feedback for each click.
 - Increasing difficulty as you progress.
@@ -44,17 +44,18 @@ simon-says/
 
 
 
-## 🎨 Preview
+## Preview
 
-![Watch the video](https://youtu.be/0CTOyzZSi7M)
+[![Watch the video](https://img.youtube.com/vi/0CTOyzZSi7M/0.jpg)](https://www.youtube.com/watch?v=0CTOyzZSi7M)
+
  
 
-## 📸 Screenshots
+## Screenshots
 
 ![alt text](image-1.png)
 ![alt text](image.png)
 
-## 💡 Future Improvements
+## Future Improvements
 
 - Add difficulty levels.
 - Add high score tracking.
@@ -63,6 +64,6 @@ simon-says/
 
 
 
-## 🧑‍💻 Author
+## Author
 
 **Drishti Porwal**  
