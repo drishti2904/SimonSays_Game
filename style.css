@@ -1,0 +1,90 @@
+/* General styles */
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    background-size: cover;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px #000;
+  }
+  
+  /* Button container styling */
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .line-one,
+  .line-two {
+    display: flex;
+  }
+  
+  /* Base button styles */
+  .btn {
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    border: 5px solid #000;
+    margin: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  /* Color styles */
+  .yellow {
+    background-color: #f99b45;
+  }
+  .red {
+    background-color: #d95980;
+  }
+  .purple {
+    background-color: #819ff9;
+  }
+  .green {
+    background-color: #63aac0;
+  }
+  
+  /* Button hover effect */
+  .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px white;
+  }
+  
+  /* Flash effects */
+  .flash {
+    background-color: white !important;
+    box-shadow: 0 0 30px white;
+  }
+  
+  .userflash {
+    background-color: #00ff7f !important;
+    box-shadow: 0 0 20px #00ff7f;
+  }
+  
+  /* Game over flash */
+  body.game-over {
+    background-color: #ff4d4d !important;
+    transition: background-color 0.2s;
+  }
+  
